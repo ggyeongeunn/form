@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form tag</title>
+    <style></style>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="아이디" />
+      <input type="password" placeholder="비밀번호" required />
+      <input type="email" placeholder="이메일" />
+      <input type="tel" placeholder="010-0000-0000" />
+      <input type="number" placeholder="번호" min="1" max="10" />
+      <input type="url" placeholder="htts://example.com" />
+      <input type="search" placeholder="search" />
+      <label>
+        <input type="checkbox" checked />
+        aa
+      </label>
+      <label>
+        <input type="checkbox" />
+        bb
+      </label>
+      <label>
+        <input type="checkbox" />
+        cc
+      </label>
+      <label for="gender">
+        <input type="radio" name="gender" id="a" />aa
+      </label>
+      <label for="gender">
+        <input type="radio" name="gender" id="b" />bb
+      </label>
+      <label for="gender">
+        <input type="radio" name="gender" id="c" />cc
+      </label>
+      <input type="file" multiple />
+      <input type="button" value="a" />
+      <button type="submit">submit</button>
+      <p></p>
+      <input type="image" src="https://picsum.photos/100/100" alt="submit" />
+      <input type="hidden" />
+      <input type="date" placeholder="날짜선택" />
+      <input type="datetime-local" placeholder="날짜 시간" />
+      <input type="month" />
+      <input type="week" />
+      <input type="time" />
+      <input type="range" />
+      <input type="color" />
+      <textarea></textarea>
+      <select size="2">
+        <option value="a" selected>aaaaa</option>
+        <option value="b">bbbbb</option>
+        <option value="c">ccccc</option>
+        <option value="d">ddddd</option>
+      </select>
+      <select multiple>
+        <option value="a" selected>aaaaa</option>
+        <option value="b" disabled>bbbbb</option>
+        <option value="c">ccccc</option>
+        <option value="d">ddddd</option>
+      </select>
+      <select>
+        <optgroup label="seoul">
+          <option value="seoul">seoul</option>
+          <option value="seoul2">seoul2</option>
+          <option value="seoul3">seoul3</option>
+        </optgroup>
+        <optgroup label="gyeonggi">
+          <option value="bb">bb</option>
+          <option value="bb2">bb2</option>
+          <option value="bb3">bb3</option>
+        </optgroup>
+      </select>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #454545;
+        text-decoration: none;
+        list-style: none;
+        line-height: 1.5;
+      }
+      button {
+        all: unset;
+      }
+      body {
+        background-color: #f4f5f6;
+      }
+      input,
+      select,
+      textarea {
+        all: unset;
+        border: 1px solid #cdd1d5;
+        padding: 15px;
+        border-radius: 6px;
+        font-size: 15px;
+        text-transform: capitalize;
+      }
+      .contact-form {
+        width: 500px;
+        margin: 50px auto;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 5px #f0f0f0;
+        background-color: #fff;
+        border-radius: 10px;
+        gap: 10px;
+      }
+      .contact-form h2 {
+        margin-bottom: 20px;
+      }
+      .contact-form label {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #808080;
+      }
+      button {
+        width: 100%;
+        margin-top: 20px;
+        padding: 16px 0;
+        background-color: #cdd1d5;
+        border-radius: 6px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      button:hover {
+        background-color: #3d7aff;
+        color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="contact-form">
+      <h2>Contact</h2>
+      <!-- name -->
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="name" />
+      <!-- mail -->
+      <label for="mail">Mail</label>
+      <input type="email" id="mail" placeholder="email" />
+      <!-- type -->
+      <label for="type">Type</label>
+      <select name="" id="type">
+        <option value="type1">type1</option>
+        <option value="type2">type2</option>
+        <option value="type3">type3</option>
+        <option value="type4">type4</option>
+        <option value="type5">type5</option>
+      </select>
+      <!-- text -->
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="message" rows="5"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
